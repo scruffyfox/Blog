@@ -76,6 +76,11 @@ code {
 	padding-top:20px;
 }
 
+#disqus_thread #footer
+{
+	display: none;
+}
+
 img
 {
 	max-width: 500px;
@@ -306,4 +311,9 @@ h5
 {
 	font-size: 12px;
 	margin-top: -10px;
+}
+
+#main-nav
+{
+	display: none;
 }

@@ -1753,3 +1753,202 @@ Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:31:00 +0100
 Processing by HomeController#rss as HTML
   Rendered home/rss.haml (20.1ms)
 Completed 200 OK in 167ms (Views: 20.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:07:18 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.1ms)
+Compiled application.css  (0ms)  (pid 6094)
+Completed 200 OK in 109ms (Views: 57.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:07:19 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:07:19 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:07:21 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 5.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:07:21 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:07:21 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:08:04 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.2ms)
+Compiled application.css  (0ms)  (pid 6132)
+Compiled jquery.js  (1ms)  (pid 6132)
+Compiled jquery_ujs.js  (0ms)  (pid 6132)
+Compiled application.js  (9ms)  (pid 6132)
+Completed 200 OK in 65ms (Views: 48.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:04 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:08:31 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Compiled application.css  (0ms)  (pid 6132)
+Completed 200 OK in 13ms (Views: 9.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:31 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:31 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:08:38 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Compiled application.css  (0ms)  (pid 6132)
+Completed 200 OK in 26ms (Views: 21.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:38 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:38 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:08:43 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 47ms (Views: 30.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:43 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:08:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:09:01 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Compiled application.css  (0ms)  (pid 6141)
+Completed 200 OK in 23ms (Views: 19.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:09:05 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 45ms (Views: 16.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:06 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:06 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:09:07 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 5.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:08 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:08 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:09:39 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Compiled application.css  (0ms)  (pid 6145)
+Completed 200 OK in 28ms (Views: 23.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:39 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:39 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:09:44 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 46ms (Views: 16.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:44 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:09:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:10:10 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.0ms)
+Compiled application.css  (0ms)  (pid 6173)
+Compiled jquery.js  (1ms)  (pid 6173)
+Compiled jquery_ujs.js  (0ms)  (pid 6173)
+Compiled application.js  (8ms)  (pid 6173)
+Completed 200 OK in 78ms (Views: 60.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:10:10 +0100
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:10:10 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 17:10:46 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.8ms)
+Compiled application.css  (0ms)  (pid 6203)
+Compiled jquery.js  (1ms)  (pid 6203)
+Compiled jquery_ujs.js  (0ms)  (pid 6203)
+Compiled application.js  (8ms)  (pid 6203)
+Completed 200 OK in 75ms (Views: 45.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 17:10:46 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 17:10:46 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)

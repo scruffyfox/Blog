@@ -8,6 +8,7 @@ gem 'rails', '3.2.6'
 gem "rake", "!= 0.9.0"
 gem 'json'
 gem 'haml'
+gem 'therubyracer' 
 gem 'redcarpet', '~> 2.1.1'
 gem 'coderay', '~> 1.0.7'
 gem 'rack'
