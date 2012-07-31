@@ -1,0 +1,3 @@
+You may have come across this at least once where you have a project library included in your main application project with custom attributes and you want to access them, but for some reason no XMLNS will work properly, and you can’t reference the library’s name space because it returns an error, a really simple and easy fix to this is to use the namespace of the actual project rather than the library project, and it will work.
+
+Crazy right?

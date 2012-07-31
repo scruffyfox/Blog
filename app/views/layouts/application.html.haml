@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+%html
+	%head
+		%title Blog
+		= stylesheet_link_tag "application"
+		= javascript_include_tag "application"
+
+		%h1 Callum Taylor
+
+		#navigation
+			#inside
+				%h3 Recent Posts
+				%ul
+					- @posts.each do |column, value|
+						%li 
+							%a{:href => "/" + column.url}
+								= column.title
+		#body
+			%div
+				= yield
+				
+:javascript
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-30094016-3']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();

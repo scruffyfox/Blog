@@ -1,0 +1,23 @@
+!!! XML
+%rss(version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom")
+
+  %channel
+    %title Callum Taylor's Blog on Programming and Shit
+    %link 'rss'
+    %atom:link(href="http://blog.callumtaylor.net/rss"
+               rel="self"
+               type="application/rss+xml")
+    %description
+      Callum Taylor's blog on programming and other tech related things
+    %language en-US
+
+    -@posts.each do |post|
+      %item
+        %title #{post.title}
+        %link  http://blog.callumtaylor.net/#{post.url}
+        %author Callum Taylor
+        %pubDate #{post.date}
+        %guid(isPermaLink='true') http://blog.callumtaylor.net/#{post.url}
+        %content:encoded <![CDATA[#{post.content}]]>

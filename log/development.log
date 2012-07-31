@@ -1,0 +1,1755 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-30 23:35:32 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 172ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:36:05 +0100
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 97ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 90.212.95.122 at 2012-07-30 23:36:05 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 90.212.95.122 at 2012-07-30 23:36:05 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 90.212.95.122 at 2012-07-30 23:36:06 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 90.212.95.122 at 2012-07-30 23:36:06 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:55:38 +0100
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 108ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:55:40 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:55:41 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 90.212.95.122 at 2012-07-30 23:55:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/application.js" for 90.212.95.122 at 2012-07-30 23:55:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:55:41 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:55:41 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 90.212.95.122 at 2012-07-30 23:55:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/application.js" for 90.212.95.122 at 2012-07-30 23:55:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:55:56 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 90.212.95.122 at 2012-07-30 23:55:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 90.212.95.122 at 2012-07-30 23:55:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:56:05 +0100
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 134ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 90.212.95.122 at 2012-07-30 23:56:07 +0100
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/application.js" for 90.212.95.122 at 2012-07-30 23:56:07 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:56:25 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 90.212.95.122 at 2012-07-30 23:56:25 +0100
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js" for 90.212.95.122 at 2012-07-30 23:56:25 +0100
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:56:32 +0100
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.9ms)
+Compiled application.css  (0ms)  (pid 9708)
+Compiled jquery.js  (2ms)  (pid 9708)
+Compiled jquery_ujs.js  (0ms)  (pid 9708)
+Compiled application.js  (45ms)  (pid 9708)
+Completed 200 OK in 187ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 90.212.95.122 at 2012-07-30 23:56:33 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 90.212.95.122 at 2012-07-30 23:56:33 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 90.212.95.122 at 2012-07-30 23:57:03 +0100
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 113ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 90.212.95.122 at 2012-07-30 23:57:04 +0100
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 90.212.95.122 at 2012-07-30 23:57:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 15:57:28 +0100
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.6) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.6) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.6) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.6) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__3771960297693915104__call__710188638564441738__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-31 16:01:18 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.2ms)
+Compiled application.css  (0ms)  (pid 3046)
+Compiled jquery.js  (1ms)  (pid 3046)
+Compiled jquery_ujs.js  (0ms)  (pid 3046)
+Compiled application.js  (65ms)  (pid 3046)
+Completed 200 OK in 194ms (Views: 92.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 16:01:18 +0100
+Served asset /jquery.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 16:01:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:01:24 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"first_id"=>"rss"}
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 4.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 16:01:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 16:01:24 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:01:56 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 196ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:02:48 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 150ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:06:44 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 189ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  actionpack (3.2.6) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.6) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.6) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.6) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.6) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.6) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.6) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.6) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.6) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.6) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.6) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.6) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.6) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.6) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:403:in `_run__288387232171660520__process_action__2367346382648171553__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.6) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.6) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+  actionpack (3.2.6) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.6) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.6) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.6) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.1.20) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__4481830289508366944__call__4189143908862227349__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:06:45 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 173ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  actionpack (3.2.6) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.6) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.6) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.6) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.6) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.6) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.6) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.6) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.6) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.6) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.6) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.6) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.6) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.6) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:403:in `_run__288387232171660520__process_action__2367346382648171553__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.6) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.6) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.6) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.6) lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+  actionpack (3.2.6) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.6) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.6) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.6) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.1.20) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__4481830289508366944__call__4189143908862227349__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:07:09 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 143ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: xml.instruct!
+    2: 
+    3: xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/" do
+    4:  xml.channel do
+    5: 
+    6:    xml.title       "Callum Taylor's Blog"
+    7:    xml.link        url_for :only_path => false, :controller => 'articles'
+  app/views/home/rss.haml:4
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:07:18 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.5ms)
+Completed 200 OK in 169ms (Views: 12.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 16:07:18 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 16:07:18 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:08:04 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 163ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %xml and nested within it.):
+    1: %xml.instruct!
+    2: 
+    3: %xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/" do
+    4: 	%xml.channel
+    5: 		%xml.title       
+    6: 			"Callum Taylor's Blog"
+    7: 		%xml.link
+  app/views/home/rss.haml:4
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:08:15 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 147ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %xml and nested within it.):
+    1: %xml.instruct!
+    2: 
+    3: %xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/"
+    4: 	%xml.channel
+    5: 		%xml.title       
+    6: 			"Callum Taylor's Blog"
+    7: 		%xml.link
+  app/views/home/rss.haml:4
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:08:16 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 162ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %xml and nested within it.):
+    1: %xml.instruct!
+    2: 
+    3: %xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/"
+    4: 	%xml.channel
+    5: 		%xml.title       
+    6: 			"Callum Taylor's Blog"
+    7: 		%xml.link
+  app/views/home/rss.haml:4
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:08:34 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 156ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %xml and nested within it.):
+    1: %xml.instruct!
+    2: 
+    3: %xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/"
+    4: 	%xml.channel
+    5: 		%xml.title "Callum Taylor's Blog"
+    6: 		%xml.link url_for :only_path => false, :controller => 'articles'
+    7:    		%xml.description "Callum Taylor programming articles and shizzle"
+  app/views/home/rss.haml:4
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:08:35 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 162ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %xml and nested within it.):
+    1: %xml.instruct!
+    2: 
+    3: %xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/"
+    4: 	%xml.channel
+    5: 		%xml.title "Callum Taylor's Blog"
+    6: 		%xml.link url_for :only_path => false, :controller => 'articles'
+    7:    		%xml.description "Callum Taylor programming articles and shizzle"
+  app/views/home/rss.haml:4
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:09:36 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 151ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:09:38 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 158ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:09:43 +0100
+Processing by HomeController#rss as HTML
+Completed 406 Not Acceptable in 130ms
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:09:44 +0100
+Processing by HomeController#rss as HTML
+Completed 406 Not Acceptable in 160ms
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:10:00 +0100
+
+SyntaxError (/Users/CallumTaylor/Desktop/Blog/app/controllers/home_controller.rb:47: syntax error, unexpected tASSOC, expecting '}'
+      format.xml { render => "rss" } 
+                            ^):
+  activesupport (3.2.6) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:228:in `each'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:228:in `constantize'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.1.20) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__4481830289508366944__call__4189143908862227349__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:10:01 +0100
+
+SyntaxError (/Users/CallumTaylor/Desktop/Blog/app/controllers/home_controller.rb:47: syntax error, unexpected tASSOC, expecting '}'
+      format.xml { render => "rss" } 
+                            ^):
+  activesupport (3.2.6) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:228:in `each'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:228:in `constantize'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.1.20) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__4481830289508366944__call__4189143908862227349__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/CallumTaylor/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:10:06 +0100
+Processing by HomeController#rss as HTML
+Completed 406 Not Acceptable in 145ms
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:10:07 +0100
+Processing by HomeController#rss as HTML
+Completed 406 Not Acceptable in 146ms
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:10:16 +0100
+Processing by HomeController#rss as HTML
+Completed 406 Not Acceptable in 144ms
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:11:05 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (0.4ms)
+Completed 500 Internal Server Error in 160ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: xml.instruct!
+    2: 
+    3: xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/" do
+    4:  xml.channel do
+    5: 
+    6:    xml.title       "Callum Taylor's Blog"
+    7:    xml.link        url_for :only_path => false, :controller => 'articles'
+  app/views/home/rss.haml:4
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:11:25 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 161ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (18.1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:11:43 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 142ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:11:44 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 150ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:11:50 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 146ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:11:50 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 147ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:12:04 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 151ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:12:08 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 161ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:12:39 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 155ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:12:40 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 156ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:13:33 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 159ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:14:44 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 158ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:14:50 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 143ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:14:51 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 166ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:15:05 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 158ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:15:06 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 165ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:15:20 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 150ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:15:34 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 132ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:15:35 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 147ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:16:23 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.rxml within layouts/application (0.3ms)
+Completed 200 OK in 170ms (Views: 4.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-31 16:16:23 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-31 16:16:23 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:16:34 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.rxml (0.0ms)
+Completed 200 OK in 144ms (Views: 1.1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:16:36 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.rxml (0.0ms)
+Completed 200 OK in 149ms (Views: 0.8ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:17:07 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 147ms
+
+ArgumentError (too few arguments):
+  app/controllers/home_controller.rb:46:in `format'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:18:24 +0100
+Processing by HomeController#rss as HTML
+Redirected to 
+Completed 500 Internal Server Error in 176ms
+
+NoMethodError (undefined method `model_name' for Post:Class):
+  app/controllers/home_controller.rb:46:in `block (2 levels) in rss'
+  app/controllers/home_controller.rb:45:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:18:39 +0100
+Processing by HomeController#rss as HTML
+Redirected to 
+Completed 500 Internal Server Error in 144ms
+
+NoMethodError (undefined method `model_name' for Post:Class):
+  app/controllers/home_controller.rb:47:in `block (2 levels) in rss'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.1ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.2ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:19:35 +0100
+Processing by HomeController#rss as HTML
+Completed 200 OK in 182ms (Views: 46.0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:19:48 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 143ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:47:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:19:49 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 162ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:47:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:20:05 +0100
+Processing by HomeController#rss as HTML
+Completed 200 OK in 162ms (Views: 16.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:20:32 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.rxml (0.0ms)
+Completed 200 OK in 132ms (Views: 1.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:21:02 +0100
+Processing by HomeController#rss as HTML
+Completed 200 OK in 146ms (Views: 1.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:22:10 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 146ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:22:11 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 156ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:22:12 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 149ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:22:12 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 164ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:22:12 +0100
+Processing by HomeController#rss as HTML
+Completed 500 Internal Server Error in 146ms
+
+ActionView::MissingTemplate (Missing template home/rss, application/rss with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee, :haml]}. Searched in:
+  * "/Users/CallumTaylor/Desktop/Blog/app/views"
+):
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:25:51 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (49.3ms)
+Completed 500 Internal Server Error in 207ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ec6bd8>:0x007f8a29ed5250>):
+    5: 
+    6:   %channel
+    7:     %title Callum Blog
+    8:     %link #{url('blog/rss')}
+    9:     %atom:link(href="#{url('blog/rss')}"
+    10:                rel="self"
+    11:                type="application/rss+xml")
+  app/views/home/rss.haml:8:in `_app_views_home_rss_haml___1881475787163516545_70115692830000'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:26:04 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (36.0ms)
+Completed 500 Internal Server Error in 179ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ec6bd8>:0x007f8a29e8adb8>):
+    6:   %channel
+    7:     %title Callum Blog
+    8:     %link 'rss'
+    9:     %atom:link(href="#{url('blog/rss')}"
+    10:                rel="self"
+    11:                type="application/rss+xml")
+    12:     %description
+  app/views/home/rss.haml:9:in `_app_views_home_rss_haml___1881475787163516545_70115692661940'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.0ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:26:25 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 155ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.9ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:26:37 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (13.9ms)
+Completed 200 OK in 146ms (Views: 15.1ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:27:04 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (0.9ms)
+Completed 500 Internal Server Error in 159ms
+
+ActionView::Template::Error (Inconsistent indentation: "    \t" was used for indentation, but the rest of the document was indented using 2 spaces.):
+    10:                rel="self"
+    11:                type="application/rss+xml")
+    12:     %description
+    13:     	Callum Taylor's blog on programming and other tech related things
+    14:     %language en-US
+    15: 
+    16:     -@posts.each do |post|
+  app/views/home/rss.haml:13
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:27:09 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (1.0ms)
+Completed 500 Internal Server Error in 158ms
+
+ActionView::Template::Error (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.):
+    10:                rel="self"
+    11:                type="application/rss+xml")
+    12:     %description
+    13: 		Callum Taylor's blog on programming and other tech related things
+    14:     %language en-US
+    15: 
+    16:     -@posts.each do |post|
+  app/views/home/rss.haml:13
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:27:19 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (0.9ms)
+Completed 500 Internal Server Error in 147ms
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    10:                rel="self"
+    11:                type="application/rss+xml")
+    12:     %description
+    13:         Callum Taylor's blog on programming and other tech related things
+    14:     %language en-US
+    15: 
+    16:     -@posts.each do |post|
+  app/views/home/rss.haml:13
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:27:24 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (4.9ms)
+Completed 200 OK in 168ms (Views: 5.6ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:27:40 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (48.3ms)
+Completed 500 Internal Server Error in 206ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a2ac7ddf8>:0x007f8a29eda868>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:46:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:28:05 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (32.9ms)
+Completed 500 Internal Server Error in 199ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ad1460>:0x007f8a29ad8878>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:28:06 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (35.0ms)
+Completed 500 Internal Server Error in 176ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ad1460>:0x007f8a2ae35178>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:28:31 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (34.5ms)
+Completed 500 Internal Server Error in 189ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ebc110>:0x007f8a29eb95c8>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:28:31 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (34.7ms)
+Completed 500 Internal Server Error in 178ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ebc110>:0x007f8a29e8d2e8>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:28:42 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (36.8ms)
+Completed 500 Internal Server Error in 210ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ed6858>:0x007f8a29ed37c0>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:28:43 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (39.5ms)
+Completed 500 Internal Server Error in 212ms
+
+ActionView::Template::Error (undefined method `url' for #<#<Class:0x007f8a29ed6858>:0x007f8a29e9a128>):
+    19:         %link  #{post.url}
+    20:         %author Callum Taylor
+    21:         %pubDate #{post.date}
+    22:         %guid(isPermaLink='true') #{url(post.url)}
+    23:         %content:encoded <![CDATA[#{post.content}]]>
+  app/views/home/rss.haml:22:in `block in _app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/views/home/rss.haml:16:in `each'
+  app/views/home/rss.haml:16:in `_app_views_home_rss_haml___1881475787163516545_70115692825020'
+  app/controllers/home_controller.rb:50:in `rss'
+
+
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/CallumTaylor/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:30:36 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (16.5ms)
+Completed 200 OK in 178ms (Views: 17.6ms)
+
+
+Started GET "/rss" for 127.0.0.1 at 2012-07-31 16:31:00 +0100
+Processing by HomeController#rss as HTML
+  Rendered home/rss.haml (20.1ms)
+Completed 200 OK in 167ms (Views: 20.9ms)
