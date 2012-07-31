@@ -49,7 +49,6 @@ ul, ol {
 li {
     line-height: 24px;
     margin-left: 44px;
-	margin-top: 10px;
 }
 li ul, li ul {
 }
@@ -89,7 +88,7 @@ img
 .code
 {
 	max-height: 300px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .CodeRay

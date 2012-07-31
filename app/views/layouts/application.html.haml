@@ -1,9 +1,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 %html
 	%head
-		%title Blog
+		%title #{@post.title} - Callum Taylor's Blog
 		= stylesheet_link_tag "application"
 		= javascript_include_tag "application"
+		%link{:rel=>"author", :href=>"https://plus.google.com/117157334811388454619"}
 		%link{:rel=>"alternate", :type=>"application/rss+xml", :href=>"http://blog.callumtylor.net/rss", :title=>"RSS Feed"}
 		%h1 Callum Taylor
 
