@@ -5,8 +5,8 @@ class HomeController < ApplicationController
 		@posts = []
 
 		@files = Dir.glob('public/posts/*.md')
-    @files = @files.sort_by{|filename| File.ctime(filename)}
-    @files = @files.reverse
+		@files = @files.sort_by{|filename| File.ctime(filename)}
+		@files = @files.reverse
 		
 		loadIndex = 0
 		index = 0
@@ -33,19 +33,18 @@ class HomeController < ApplicationController
 	end
 	
 	def rss
-	  @posts = []
-	  @files = Dir.glob('public/posts/*.md')
-    @files = @files.sort_by{|filename| File.ctime(filename)}
-    @files = @files.reverse
+		@posts = []
+		@files = Dir.glob('public/posts/*.md')
+		@files = @files.sort_by{|filename| File.ctime(filename)}
+		@files = @files.reverse
 
 		for file in @files
 			name = File.basename(file, ".*")
 			@posts << Post.loadPost(name)
 		end
   
-    render :layout => false
-  	#render :file => "home/rss.rxml", :layout => false
-    response.headers["Content-Type"] = "application/xml; charset=utf-8"
+		render :layout => false
+		response.headers["Content-Type"] = "application/xml; charset=utf-8"
 	end
 end
 
