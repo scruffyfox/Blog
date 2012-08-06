@@ -62,10 +62,18 @@ pre {
 	margin: 0;
     white-space: pre-wrap;
 }
+
+.twitter-share-button
+{
+	float: right;
+}
+
 code {
     font-family: Consolas, Monaco, Andale Mono, monospace;
     line-height: 1.5;
     font-size: 13px;
+	background-color:hsla(0,100%,50%,0.05);
+	color:#D20;
 }
 
 #disqus_thread

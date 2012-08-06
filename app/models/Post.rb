@@ -13,7 +13,7 @@ class Post
 			:superscript => true
 		}
 		
-    markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
+		markdown_to_html = Redcarpet::Markdown.new(coderayified, options)
 		
 		@title = title
 		@content = markdown_to_html.render(content).html_safe
@@ -25,9 +25,11 @@ class Post
 		begin
 			file = File.new("public/posts/" + name + ".md", "r")
 			content = ""
+			
 			while (line = file.gets)
 				content += line
 			end
+
 			time = file.ctime.strftime("%d %B %Y at %H:%M:%S")
 
 			file.close	

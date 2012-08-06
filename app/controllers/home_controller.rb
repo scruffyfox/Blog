@@ -24,12 +24,7 @@ class HomeController < ApplicationController
 		end		
 		
 		#load the first post
-		@post = Post.loadPost(@posts[loadIndex].title)
-
-		if @post == nil
-			raise ActionController::RoutingError.new('Not Found')
-			#render(:layout => "404")
-		end
+		@post = Post.loadPost(@posts[loadIndex].title) || Post.loadPost(@post[0].title)
 	end
 	
 	def rss
