@@ -20,7 +20,7 @@ class HomeController < ApplicationController
 				loadIndex = index
 			end
 
-		  index += 1
+			index += 1
 		end		
 		
 		#load the first post
