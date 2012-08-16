@@ -69,11 +69,13 @@ pre {
 }
 
 code {
-    font-family: Consolas, Monaco, Andale Mono, monospace;
-    line-height: 1.5;
-    font-size: 13px;
-	background-color:hsla(0,100%,50%,0.05);
-	color:#D20;
+  font-family: Consolas, Monaco, Andale Mono, monospace;
+  line-height: 1.5;
+  font-size: 13px;
+  background-color:hsla(0,100%,50%,0.05);
+  color:#D20;
+  padding: 3px;
+  border-radius: 8px;
 }
 
 #disqus_thread
@@ -96,7 +98,7 @@ img
 .code
 {
 	max-height: 300px;
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .CodeRay
