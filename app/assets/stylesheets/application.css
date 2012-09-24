@@ -69,13 +69,19 @@ pre {
 }
 
 code {
-  font-family: Consolas, Monaco, Andale Mono, monospace;
+  font-family: courier new, serif;
   line-height: 1.5;
   font-size: 13px;
   background-color:hsla(0,100%,50%,0.05);
   color:#D20;
   padding: 3px;
   border-radius: 8px;
+}
+
+.code pre
+{
+    font-family: courier new, serif;
+    font-size:14px;
 }
 
 #disqus_thread
