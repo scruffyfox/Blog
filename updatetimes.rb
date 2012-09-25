@@ -7,8 +7,8 @@ if ARGV.length < 1
 	puts '    save: saves the current post\'s times into times.txt'
 else
 	if ARGV[0] == "load"				
-		if File.exists?('times.txt')
-			fileStr = File.open('times.txt', 'r') {|file| file.read}
+		if File.exists?('/var/www/vhosts/callumtaylor.net/blog/times.txt')
+			fileStr = File.open('./times.txt', 'r') {|file| file.read}
 
 			fileStr.split("\n").each do |line|
 				fileName = line.split("\t")[0]
@@ -20,13 +20,13 @@ else
 		end				
 	elsif ARGV[0] == "save"
 		fileTimes = ""
-		@files = Dir.glob('public/posts/*.md')
-		
+		@files = Dir.glob('/var/www/vhosts/callumtaylor.net/blog/public/posts/*.md')
+
 		for file in @files
 			fileTimes += file + "\t" + File.mtime(file).to_s
 			fileTimes += "\n"			
 		end	
 
-		File.open('times.txt', 'w+').write(fileTimes)
+		File.open('/var/www/vhosts/callumtaylor.net/blog/times.txt', 'w+').write(fileTimes)
 	end
 end
