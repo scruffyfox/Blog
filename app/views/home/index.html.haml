@@ -12,6 +12,7 @@
 #disqus_thread
 :javascript
 	var disqus_identifier = "#{@post.url}";
+	var disqus_url = "http://blog.callumtaylor.net/#{@post.url}";
 	var disqus_shortname = 'callumtaylorblog'; // required: replace example with your forum shortname
 	(function() {
 		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
