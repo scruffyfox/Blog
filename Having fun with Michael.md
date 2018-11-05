@@ -73,7 +73,7 @@ recruit for however and usually look for more experience but could be worth a tr
 >Date: 26/07/2012 15:53
 >
 >I don't know if I'm a good enough ninja yet
->![im a ninja](/posts/images/ninja.jpeg)
+>![im a ninja](/images/ninja.jpeg)
 
 -
 
@@ -93,7 +93,7 @@ recruit for however and usually look for more experience but could be worth a tr
 >To: Michael Adams
 >Date: 26/07/2012 16:06
 >
->![cv](/posts/images/cv.png)
+>![cv](/images/cv.png)
 
 -
 
